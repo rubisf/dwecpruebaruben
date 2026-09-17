@@ -29,7 +29,6 @@ function calcularFactorial() {
     // Si ocurre un error, mostramos un mensaje de alerta.
     //alert("Por favor, introduce un número válido");
   }
-
   if (!isNaN(num) && num >= 0) {
     //Muestro el resultado en un div
     /*
@@ -41,7 +40,6 @@ function calcularFactorial() {
     var el = document.createElement("p");
     el.textContent = `El factorial de ${num} es ${factorial}`;
     document.body.appendChild(el);
-    
 
     //Más modos de añadirlo
     /*
@@ -52,7 +50,6 @@ function calcularFactorial() {
     `<p>El factorial de ${num} es ${factorial}</p>`
     );
     */
-    
   }
 }
 
